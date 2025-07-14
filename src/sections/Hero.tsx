@@ -3,7 +3,7 @@ import ArrowIcon from "@/assets/arrow-right.svg";
 import cogImage from "@/assets/cog.png";
 import cylinderImage from "@/assets/cylinder.png";
 import noodleImage from "@/assets/noodle.png";
-import Image from "next/image";
+
 import {
   motion,
   useScroll,
@@ -56,7 +56,7 @@ export const Hero = () => {
               transition={{
                 repeat: Infinity,
                 repeatType: "mirror",
-                duration: 3,
+                duration: 1,
                 ease: "easeInOut",
               }}
             />
